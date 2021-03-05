@@ -1,0 +1,79 @@
+    .breadcrumb {
+        background: #ffffff;
+    }
+    
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
+    
+    .carousel-indicators {
+        filter: invert(100%);
+    }
+    
+    .navbar {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .section-invert {
+        background: #f9fafc;
+    }
+    
+    .carousel-item {
+        height: 450px;
+    }
+    
+    .carousel-item img {
+        height: 450px;
+    }
+    /* Makes card images equal length */
+    
+    .card-img-top {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+    
+    .underline {
+        width: 10%;
+        height: 2px;
+        background: #03FCDE;
+    }
+    
+    .icon {
+        border-radius: 50%;
+        min-width: 65px;
+        height: 65px;
+        line-height: 65px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(33, 37, 41, .1), 0 7px 14px rgba(33, 37, 41, .1);
+        font-size: 27px;
+    }
+    
+    .template {
+        border-top: 1px solid #eaebed;
+    }
+    
+    .template img {
+        max-width: 500px;
+        z-index: 1;
+        top: 50%;
+        left: 100%;
+        box-shadow: 0 13px 25px rgba(0, 0, 0, .05), 0 60px 100px rgba(192, 192, 192, .5)
+    }
+    
+    .alert {
+        display: none;
+    }
+    /* Media Queries */
+    
+    @media (max-width:991.98px) {
+        .template img {
+            display: table;
+            position: static;
+            -webkit-transform: translate(0);
+            transform: translate(0);
+            margin: 0 auto
+        }
+    }
